@@ -9,7 +9,8 @@ p {
 
 
 body {
-  background-color: #94af1c;
+  background-color: rgba(211, 76, 143, 0.12);
+  
 }
 
 #listaejercicios{
@@ -38,27 +39,27 @@ a {text-decoration: none;
 }
 
 img {
-	margin-left: 275px;
-    margin-right: 200px;
-	width: 60%;
- 	height: 60%;
-  border-radius: 70px;
+	margin-left: 325px;
+	width: 55%;
+ 	height: 55%;
+  border-radius: 40px;
 }
   
 .navegacion{
   display: flex;
   align-items: center;
+  justify-content: center;
    width: 100%;
-  background: #2c2d69;
+  background: #21d82a;
   font-size: 20px;
 }
 
 .navegacion ul{
-  list-style: none;
+  list-style:lower-roman;
 }
 
 .menu > li{
-  position: relative;
+  position:relative;
   display: inline-block;
 }
 
@@ -75,8 +76,9 @@ img {
   transition: all .2s;
 }
 .pie {
-  background-color: #292c2f;
-  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  background-color: #3f053f;
+  margin-top: 10px;
+  box-shadow: 0 1px 1px 0 rgba(204, 33, 118, 0.12);
   box-sizing: border-box;
   text-align: center;
   width: 100%;
