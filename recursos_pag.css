@@ -32,8 +32,9 @@ a {text-decoration: none;
 }
 
 
-.foto img {
-	width: 30%;
+.img {
+    
+	width: auto;
 	height: auto;
 	margin: 10px, auto;
 }
@@ -88,5 +89,5 @@ img {
 
   color: #ffffff;
   font-size: 18px;
-  height: 100px;
+  height: 50px;
 }
