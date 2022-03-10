@@ -27,16 +27,15 @@ body {
   
 }
   
-a {text-decoration: none;
+a {text-decoration:dashed;
 
 }
 
 
 .img {
-    
-	width: auto;
-	height: auto;
-	margin: 10px, auto;
+    display:flex;
+	width: 90%; 
+	margin: 10px;
 }
 
 img {
