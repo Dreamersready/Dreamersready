@@ -1,0 +1,90 @@
+p {
+	font-family: helvética;
+	text-align: center;
+	font-size: 25px;
+  margin-bottom: 30px;
+  margin-top: 100px;
+}
+
+
+
+body {
+  background-color: #fce4c2;
+}
+
+#listaejercicios{
+  
+  
+  font-size: 20px;
+  margin-top: 5px;
+  float:auto;
+  margin-left: 200px;
+  display: block;
+  color: black;
+  font-family: 'Open sans';
+  
+  
+}
+  
+a {text-decoration: none;
+
+}
+
+
+.foto img {
+	width: 30%;
+	height: auto;
+	margin: 10px, auto;
+}
+
+img {
+	margin-left: 275px;
+    margin-right: 200px;
+	width: 60%;
+ 	height: 60%;
+  border-radius: 70px;
+}
+  
+.navegacion{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   width: 100%;
+  background: #fce4c2;
+  font-size: 20px;
+}
+
+.navegacion ul{
+  list-style: none;
+}
+
+.menu > li{
+  position: relative;
+  display: inline-block;
+}
+
+.menu > li > a{
+  display: block;
+  padding: 15px 20px;
+  color: #353535;
+  font-family: 'Open sans';
+  text-decoration: none;
+}
+
+.menu li a:hover{
+  color: #CE7D35;
+  transition: all .2s;
+}
+.pie {
+  background-color: #292c2f;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  text-align: center;
+  width: 100%;
+  text-align: left;
+  font: normal 16px sans-serif;
+
+  color: #ffffff;
+  font-size: 18px;
+  height: 100px;
+}
