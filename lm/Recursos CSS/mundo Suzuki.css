@@ -1,0 +1,67 @@
+body {
+  background: black;
+  background: faf5f6;
+font-family: "Quicksand", sans-serif;
+color: #333;
+}
+
+body {
+  background: #696969 url("Imagenes/bg_page.png") repeat-y fixed center;
+}
+
+.contenido {
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.moto {
+  display: flex;
+  justify-content: center;
+  width: auto;
+}
+
+img {
+  border: 3px solid black;
+}
+
+.texto {
+  display: block;
+  color: #990000;
+}
+
+h1 {
+  text-align: center;
+}
+
+header {
+  margin-bottom: 5px;
+}
+
+ul.nav {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: #333;
+}
+
+li.nav {
+float: left;
+}
+
+li.nav a {
+display: block;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+li.nav a:hover:not(.active) {
+background-color: #111;
+}
+
+.inicio {
+background-color: #04AA6D;
+}

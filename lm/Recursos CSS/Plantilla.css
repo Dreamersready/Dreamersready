@@ -1,0 +1,94 @@
+body{
+    background-color: #C0C0C0;
+}
+
+#wrapper{
+    background-color: white;
+    width: 90%;
+    height: 600px;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+
+#banner{
+    background-color: #FF6600;
+    height: 75px;
+    border-bottom: 1px solid black;
+}
+
+#signup{
+    background-color: #9966CC;
+    width: 180px;
+    height: 30px;
+    margin: 5px 5px;
+    border: 1px solid black;
+    float: right;
+}
+
+#main{
+    background-color: #9966CC;
+    background-image: url(Imagenes/azul.jpg);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    border-bottom: 1px solid black;
+    height: 300px;
+}
+
+#tag{
+    background-color: #ff6600;
+    width: 120px;
+    height: 60px;
+    border: 1px solid black;
+    float: right;
+    margin: 100px 100px;    
+}
+
+#news{
+    background-color: white;
+    height: 150px;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+.news1{
+    background-color: #C0C0C0;
+    width: 30%;
+    height: 130px;
+    margin-top: 10px;
+    border: 1px solid black;
+    display: inline-block;
+}
+
+#footer{
+    background-color: #33CC33;
+    height: 75px;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+#testimony{
+    background-color: #9966CC;
+    margin-top: 10px;
+    width: 25%;
+    height: 55px;
+    border: 1px solid black;
+    display: inline-block;
+}
+
+#contact{
+    background-color: #9966CC;
+    margin-top: 10px;
+    width: 45%;
+    height: 55px;
+    border: 1px solid black;
+    display: inline-block;
+}
+
+#location{
+    background-color: #9966CC;
+    margin-top: 10px;
+    width: 15%;
+    height: 55px;
+    border: 1px solid black;
+    display: inline-block;
+}

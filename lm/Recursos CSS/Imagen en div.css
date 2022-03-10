@@ -1,0 +1,41 @@
+body{
+    background-color: aqua;
+}
+#padre {
+	width: 700px; 
+    height: 500px; 
+    border: solid 7px rgb(54, 27, 2);
+    margin:auto;
+}
+h1{
+    text-align: center;
+    color:#CE7D35;
+}
+#hijo {
+    border: 6px solid rgb(21, 2, 71);
+	padding: 25px 55px;
+	}
+
+
+    /* Barra de navegación para la pagina*/
+  
+  .navegacion ul{
+    list-style: none;
+  }
+  
+  .menu > li{
+    position: relative;
+    display: inline-block;
+  }
+  
+  .menu > li > a{
+    display: block;
+    padding: 15px 20px;
+    color: #353535;
+    font-family: 'Open sans';
+    text-decoration: none;
+  }
+  
+  .menu li a:hover{
+    color: #CE7D35;
+    transition: all .2s;}

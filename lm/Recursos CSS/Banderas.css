@@ -1,0 +1,38 @@
+body {
+    background-color:darkseagreen;
+}
+
+div{width:300px;height:200px;margin:20px;
+    display: inline-block;
+	border:1px solid black;
+}
+
+.ban_colombia {
+    background-image: linear-gradient(yellow 40%, blue 30% 66.6%, red 66.66%);
+
+}
+
+.ban_francia {
+    background-image: linear-gradient(90deg, red 33%, white 33% 66.66%, blue 66.66%);
+}
+
+.ban_italia {
+    background-image: linear-gradient(90deg, green 33%, white 33% 66.66%, red 66.66%);
+}
+
+.ban_alemania {
+    background-image: linear-gradient(black 33%, red 33% 66.66%, yellow 66.66%);
+    color: white;
+}
+
+.ban_japon {
+    background-image: radial-gradient(circle, red 33%, white 33%);
+}
+
+.ban_polonia {
+    background-image: linear-gradient(white 50%, red 50%);
+}
+
+.ban_españa {
+    background-image: linear-gradient(red 25%,yellow 25% 75%,red 75%);
+}
