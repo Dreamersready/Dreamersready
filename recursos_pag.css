@@ -56,10 +56,6 @@ img {
 }
 
 
-.navegacion ul{
-  list-style:lower-roman;
-}
-
 .menu > li{
   position:relative;
   display: inline-block;
