@@ -6,8 +6,6 @@ p {
   margin-top: 75px;
 }
 
-
-
 body {
   background-color:dimgrey;
   
@@ -36,15 +34,17 @@ a {text-decoration:dashed;
     display:flex;
 	width: 90%; 
 	margin: 45px;
+  border: black 10px;
 }
 
 img {
 	margin-left: 315px;
 	width: 55%;
  	height: 55%;
+  
 }
   
-.navegacion{
+.barra{
   display: flex;
   align-items: center;
   justify-content: center;
