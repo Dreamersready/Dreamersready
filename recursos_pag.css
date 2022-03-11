@@ -33,12 +33,24 @@ a {text-decoration:dashed;
 .img {
     display:flex;
 	width: 90%; 
-	margin: 45px;
+	margin: 30px;
   border: white 10px;
+}
+.tema1 {
+  display:flex;
+width: 90%; 
+margin: 30px;
+border: white 10px;
+}
+.tema2 {
+  display:flex;
+width: 90%; 
+margin: 30px;
+border: white 10px;
 }
 
 img {
-	margin-left: 315px;
+	margin-left: 324px;
 	width: 55%;
  	height: 55%;
   border:white 15px;
@@ -51,7 +63,27 @@ img {
   background: #21d82a;
   font-size: 20px;
   width: 50%;
-  margin-left: 362px;
+  margin-left: 352px;
+  
+}
+.vista{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #4e2dc5;
+  font-size: 15px;
+  width: 43%;
+  margin-left: 394px;
+  
+}
+.ver{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #7aad1c;
+  font-size: 15px;
+  width: 43%;
+  margin-left: 394px;
   
 }
 
