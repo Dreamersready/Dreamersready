@@ -1,28 +1,28 @@
+body{
+  background-color: khaki;
+}
 img {
 	width: 300px;
 	height: 200px;
     margin: 8px;
-	border: 5px solid gray;
+	border: 5px solid rgb(238, 157, 52);
 }
-#uno {
+#primera {
 	float: left;
 }
-#dos {
+#segunda {
 	float: right;
 }
-#tres{
+#tercera{
     float:right;    
 }
-
-
-/* Barra de navegación para la pagina*/
 
 .navegacion{
     display: flex;
     justify-content: center;
     align-items: center;
      width: 100%;
-    background: #fce4c2;
+    background: #ebbd7e;
     font-size: 20px;
   }
   
