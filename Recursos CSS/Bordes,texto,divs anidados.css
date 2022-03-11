@@ -1,12 +1,5 @@
 body {
-	background-color: rgb(243, 72, 72);
-}
-h1 	{
-		font-family: Verdana; 
-		font-size: 24px;
-		text-align: center;
-		color: rgb(26, 161, 155);
-		margin-left: 20px;		
+	background-color: rgb(205, 221, 57);
 }
 h2 	{
 		font-family: "Comic Sans MS"; 
@@ -31,7 +24,7 @@ p 	{
 
 .page {
 	margin: 3%;
-	border-radius: 3%;
+	border-radius: 5px;
 	padding: 7%;
 	background-color: rgb(26, 2, 11);
 }
@@ -63,13 +56,4 @@ p 	{
 .groove_border {
 	border: white 3px solid;
 	margin: 20px;
-}
-
-.title_border {
-	border-bottom: rgb(196, 209, 14) 3px solid;
-	border-top: none;
-	border-left: none;
-	border-right: none;
-	margin: 0 auto;
-	width: 50%;
 }
