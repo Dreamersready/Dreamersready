@@ -35,7 +35,7 @@ a {text-decoration:dashed;
 .img {
     display:flex;
 	width: 90%; 
-	margin: 40px;
+	margin: 45px;
 }
 
 img {
@@ -90,7 +90,7 @@ img {
   font: normal 10px sans-serif;
  
 
-  color: #ffffff;
+  color: #f54949;
   font-size: 18px;
   height: 50px;
 }
