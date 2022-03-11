@@ -2,14 +2,14 @@ p {
 	font-family: helvética;
 	text-align: center;
 	font-size: 25px;
-  margin-bottom: 30px;
-  margin-top: 100px;
+  margin-bottom: 15px;
+  margin-top: 75px;
 }
 
 
 
 body {
-  background-color: rgba(18, 88, 88, 0.12);
+  background-color:dimgrey;
   
 }
 
@@ -34,12 +34,12 @@ a {text-decoration:dashed;
 
 .img {
     display:flex;
-	width: 95%; 
-	margin: 10px;
+	width: 90%; 
+	margin: 40px;
 }
 
 img {
-	margin-left: 325px;
+	margin-left: 315px;
 	width: 55%;
  	height: 55%;
   border-radius: 40px;
@@ -49,10 +49,14 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-   width: 100%;
   background: #21d82a;
   font-size: 20px;
+  width: 60%;
+  border-radius: 35px;
+  margin-left: 290px;
+  
 }
+
 
 .navegacion ul{
   list-style:lower-roman;
@@ -75,7 +79,7 @@ img {
   color: #CE7D35;
   transition: all .2s;
 }
-.pie {
+.footer {
   background-color: #3f053f;
   margin-top: 10px;
   box-shadow: 0 1px 1px 0 rgba(204, 33, 118, 0.12);
