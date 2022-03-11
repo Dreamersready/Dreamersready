@@ -102,8 +102,8 @@ img {
 }
 
 .menu li a:hover{
-  color: #CE7D35;
-  transition: all .2s;
+  color: #23a343;
+  transition: all .3s;
 }
 .footer {
   background-color: #3f053f;
