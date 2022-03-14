@@ -93,6 +93,23 @@ img {
   display: inline-block;
 }
 
+ul.lista {
+  border: 1px solid #7C7C7C;
+  border-bottom: none;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 180px;
+  margin-left: 375px;
+  
+}
+ul.lista li {
+  background: #F4F4F4;
+  border-bottom: 1px solid #7C7C7C;
+  border-top: 1px solid #FFF;
+  text-align: center;
+}
+
 .menu > li > a{
   display: block;
   padding: 15px 20px;
@@ -119,4 +136,8 @@ img {
   color: #f54949;
   font-size: 18px;
   height: 50px;
+}
+h1{
+  color: #0b177e;
+margin-left: 590px;
 }

@@ -1,0 +1,173 @@
+html, body, h1, h2, h3, h4, h5, h6, p, ol, ul, li, pre, code, address, variable, form, fieldset, blockquote {
+ padding: 0;
+ margin: 0;
+ font-size: 100%;
+ font-weight: normal;
+}
+table { border-collapse: collapse; border-spacing: 0; }
+td, th, caption { font-weight: normal; text-align: left; }
+img, fieldset { border: 0; }
+ol { padding-left: 1.4em; list-style: decimal; }
+ul { padding-left: 1.4em; list-style:square; }
+q:before, q:after { content:''; }
+
+#main {
+	float: right;
+	width: 565px;
+	margin-right: 15px;
+	padding-top: 25px;
+}
+
+* html #main {
+  display:inline; 
+}
+#announcement {
+	margin-right: 600px;
+	margin-left: 20px;
+	
+}
+
+#copyright {
+	clear: both;
+	font: bold 12px Tahoma, Geneva, sans-serif;
+	color: #65747E;
+	padding: 5px;
+  margin: 0 15px;
+	border: 1px dotted #98AFBE;
+  border-left: none;
+  border-right: none;
+}
+
+
+#banner h1 {
+	font: normal 48px Georgia, "Times New Roman", Times, serif;
+	text-align: right;
+  color: #272D32;
+}
+
+#main h2 {
+	font: 24px Tahoma, Geneva, sans-serif;
+	margin-bottom: 15px;
+	font-family: Tahoma, Geneva, sans-serif;
+}
+#main p {
+	font: 14px Tahoma, Geneva, sans-serif;
+	color: #323A3F;
+	margin-bottom: 20px;
+	font-family: Tahoma, Geneva, sans-serif;
+}
+
+#announcement h2 {
+	font: italic bold normal 20px Georgia, "Times New Roman", Times, serif;
+	text-align: center;
+	color: #323A3F;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	margin-bottom: 18px;
+}
+#announcement ul {
+	font: 14px Tahoma, Geneva, sans-serif;
+}
+
+
+body {
+    background: url('Imagenes/Imagen\ Mauncristo/bg.page.png') repeat-x center;
+    font-family: "Quicksand", sans-serif;
+    margin-top: 20px;
+
+}
+
+#wrapper {
+    background: url('Imagenes/Imagen\ Mauncristo/bg_main.jpg') no-repeat #FFF;
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+    overflow: hidden; /* contain float */
+}
+
+#banner {
+    margin-top: 48px;
+}
+
+
+#main>h2 {
+    border-bottom: 10px solid transparent;
+    border-image: url('Imagenes/Imagen\ Mauncristo/underline.png') 15;
+}
+
+.last>li {
+    list-style: none;
+    list-style-image: url('Imagenes/Imagen\ Mauncristo/bullet.png');
+    list-style-position: inside;
+    padding-left: 25px;
+    margin-bottom: 10px;
+    position: 0px 4px;
+}
+
+#announcement {
+    margin-top: 115px;
+    background: url('Imagenes/Imagen\ Mauncristo/scroll_middle.jpg') repeat-y center top;
+}
+
+#announcement li {
+    margin-left: 30px;
+    margin-right: 40px;
+}
+
+#announcement>h2 {
+    background: url('Imagenes/Imagen\ Mauncristo/scroll_top.jpg') no-repeat;
+    padding-top: 70px;
+}
+
+.last {
+    background: url('Imagenes/Imagen\ Mauncristo/scroll_bottom.jpg') no-repeat center bottom;
+    padding-bottom: 65px;
+}
+
+/* Barra de Navegación */
+
+ul.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar>li {
+   list-style-image: none;
+   margin-left: 0px;
+  float: left;
+}
+
+a.navbar {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+a.navbar:hover:not(.active) {
+  background-color: #111;
+}
+
+a.inicio {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color: #04AA6D;
+}
+a.inicio:hover:not(.active) {
+  background-color: #111;
+}
+
+header {
+    position: absolute;
+    left: 6px;
+    top: 6px;
+    margin-bottom: 5px;
+    width: 100%;
+}
