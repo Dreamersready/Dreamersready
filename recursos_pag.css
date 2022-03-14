@@ -108,6 +108,7 @@ ul.lista li {
   border-bottom: 1px solid #7C7C7C;
   border-top: 1px solid #FFF;
   text-align: center;
+  color: #7aad1c;
 }
 
 .menu > li > a{
@@ -128,11 +129,9 @@ ul.lista li {
   box-shadow: 0 1px 1px 0 rgba(204, 33, 118, 0.12);
   box-sizing: border-box;
   text-align: center;
-  width: 100%;
-  text-align: left;
+  width: auto;
   font: normal 10px sans-serif;
  
-
   color: #f54949;
   font-size: 18px;
   height: 50px;
