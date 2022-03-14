@@ -1,0 +1,78 @@
+#sidebar {
+    padding: 15px;
+    padding-left: 600px;
+    background-color: #E9F5FE;
+}
+
+
+
+#main {float: left;
+       width: 580px;
+       background-color: #CDE6FF; 
+
+}
+
+#main h2 {
+    color: #E8A064;
+    border-bottom: 2px solid white;
+    background: url("Imagenes/bullet_flower.png") no-repeat;
+    padding: 0px 0px 10px 80px;
+        
+}
+
+body{
+    background-repeat:  repeat no-repeat;
+    background-image: url(./Imagenes/bg_body.png);
+    color: #B1967C;
+    background-color: #CDE6FF;
+    font-family:'Palatino Linotype';
+    padding: top 100px;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 115px;
+    margin-bottom: 0;
+}
+
+h1 { font-family: 'Arial Black';
+    font-size: 3em;
+
+}
+
+h2 { font-size: 2.2em;
+     color: #AFC3D6;
+     padding-bottom: 5px;
+
+}
+
+
+
+.navegacion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     width: 100%;
+    background: #fce4c2;
+    font-size: 20px;
+  }
+  
+  .navegacion ul{
+    list-style: none;
+  }
+  
+  .menu > li{
+    position: relative;
+    display: inline-block;
+  }
+  
+  .menu > li > a{
+    display: block;
+    padding: 15px 20px;
+    color: #353535;
+    font-family: 'Open sans';
+    text-decoration: none;
+  }
+  
+  .menu li a:hover{
+    color: #CE7D35;
+    transition: all .2s;}

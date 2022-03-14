@@ -139,5 +139,8 @@ ul.lista li {
 }
 h1{
   color: #0b177e;
-margin-left: 590px;
+text-align: center;
+}
+h1:hover{
+  color:#cf608b ;
 }
