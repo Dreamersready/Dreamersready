@@ -39,6 +39,7 @@ function fruteria_calculo (peras, manzanas, fresas, sandias)
 	let precio_sandias = sandias * 1;
 	let precio_envio = 5;
 	let precio=5+0;
+	let precio1=5-0;
 	if (condicion>=5)
 	{
 		precio_peras = precio_peras*0.9;
@@ -70,10 +71,24 @@ function fruteria_calculo (peras, manzanas, fresas, sandias)
 		respuesta2s.textContent = texto4;
 		precio = precio + precio_sandias;
 	}
-	let texto5 ='Los gastos de envio son de:' + precio_envio+ '€';
+	if(precio<50)
+	{let texto5 ='Los gastos de envio son de:' + precio_envio+ '€';
 	respuesta2t.textContent = texto5;
-	let texto6 = 'Precio total de la compra: ' + precio + '€';
-	respuesta3t.textContent = texto6;	
+	}
+	else
+	{
+		let texto5 ='Los gastos de envio son gratis:'+ '0€';
+		respuesta2t.textContent = texto5;	
+	}
+	if(precio<50)
+	{
+		let texto6 = 'Precio total de la compra: ' + Math.round(precio) + '€';
+		respuesta3t.textContent = texto6;	
+	}
+	else{
+		let texto6 = 'Precio total de la compra: ' + Math.round(precio) - precio_envio + '€';
+		respuesta3t.textContent = texto6;
+	}
 }
 /*funcione del ejercicio 3*/
 let contador = 0;
