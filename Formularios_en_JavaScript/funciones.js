@@ -39,7 +39,7 @@ function fruteria_calculo (peras, manzanas, fresas, sandias)
 	let precio_sandias = sandias * 1;
 	let precio_envio = 5;
 	let precio=5+0;
-	let precio1=5-0;
+	let precio1=0;
 	if (condicion>=5)
 	{
 		precio_peras = precio_peras*0.9;
@@ -52,24 +52,28 @@ function fruteria_calculo (peras, manzanas, fresas, sandias)
 		let texto1 = 'Kilos de las peras: ' + peras + ' a 3€/Kg sale a: ' + precio_peras+ '€';
 		respuesta2p.textContent = texto1;
 		precio = precio + precio_peras;
+		precio1 = precio1 + precio_peras;
 	}
 	if(manzanas>0)
 	{
 		let texto2 = 'Kilos de las manzanas: ' + manzanas + ' a 2,5€/Kg sale a: ' + precio_manzanas+ '€';
 		respuesta2m.textContent = texto2;
 		precio = precio + precio_manzanas;
+		precio1= precio1 + precio_manzanas;
 	}
 	if(fresas>0)
 	{
 		let texto3 = 'Kilos de las fresas: ' + fresas + ' a 4€/Kg sale a: ' + precio_fresas+ '€';
 		respuesta2f.textContent = texto3;
 		precio = precio + precio_fresas;
+		precio1= precio1 + precio_fresas;
 	}
 	if(sandias>0)
 	{
 		let texto4 = 'Kilos de las sandias: ' + sandias + ' a 1€/Kg sale a: ' + precio_sandias+ '€';
 		respuesta2s.textContent = texto4;
 		precio = precio + precio_sandias;
+		precio1= precio1 + precio_sandias;
 	}
 	if(precio<50)
 	{let texto5 ='Los gastos de envio son de:' + precio_envio+ '€';
@@ -80,17 +84,17 @@ function fruteria_calculo (peras, manzanas, fresas, sandias)
 		let texto5 ='Los gastos de envio son gratis:'+ '0€';
 		respuesta2t.textContent = texto5;	
 	}
-	if(precio<50)
+	if(precio<=50)
 	{
 		let texto6 = 'Precio total de la compra: ' + Math.round(precio) + '€';
 		respuesta3t.textContent = texto6;	
 	}
 	else{
-		let texto6 = 'Precio total de la compra: ' + Math.round(precio)  + '€';
+		let texto6 = 'Precio total de la compra: ' + Math.round(precio1)  + '€';
 		respuesta3t.textContent = texto6; 
 	}
 }
-/*funcione del ejercicio 3*/
+/*Funcion del ejercicio 3*/
 let contador = 0;
 function killnodo () 
 		{
