@@ -86,8 +86,8 @@ function fruteria_calculo (peras, manzanas, fresas, sandias)
 		respuesta3t.textContent = texto6;	
 	}
 	else{
-		let texto6 = 'Precio total de la compra: ' + Math.round(precio) - precio_envio + '€';
-		respuesta3t.textContent = texto6;
+		let texto6 = 'Precio total de la compra: ' + Math.round(precio)  + '€';
+		respuesta3t.textContent = texto6; 
 	}
 }
 /*funcione del ejercicio 3*/
