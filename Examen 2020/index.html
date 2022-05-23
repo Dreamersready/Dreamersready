@@ -4,52 +4,54 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="author" content="Robin Cuesta Wilkens">
-	<link rel="stylesheet" href="estilos.css">
-	<script type="text/javascript" src="funciones.js"></script>
-	<title>Examen Javascript</title>
+	<meta name="author" content="Pablo escano martin">
+	<script type="text/javascript" src="./funciones.js"></script>
+	<title>Examen 2020</title>
 </head>
 <body>
 	<div id="content">
 		<section>
-			<form name="ej1" id="f1">
+			<form name="f1">
 				<fieldset>
-					<legend>Números desbordados</legend>
-					Introduce un número para comprobar si es desbordado: <input type="number" name="n1" value="0" size="10"><br>
-					<button type="button" onclick="sum_cuad_dig(ej1.n1.value)">Verificar Número</button>
+					<legend>Números perfectos</legend>
+					Introduce un número para saber sus divisores: <input type="number" name="n1" value="0" size="10"><br>
+					<button type="button" onclick="sumaDivisores(f1.n1.value)">Mostrar divisores</button>
 					<div id="respuesta1"></div>
 				</fieldset>
 			</form>
-			<form name="ej2" id="f2">
+
+			<form name="f2">
 				<fieldset>
-					<legend>Fruteria</legend>
-					Introduce los kilos de Peras que desea: <input type="number" name="n1" value="0" size="10"><br>
-					Introduce los kilos de Manzanas que desea: <input type="number" name="n2" value="0" size="10"><br>
-					Introduce los kilos de Fresas que desea: <input type="number" name="n3" value="0" size="10"><br>
-					Introduce los kilos de Sandías que desea: <input type="number" name="n4" value="0" size="10"><br>
-					<button type="button" onclick="fruteria_calculo(ej2.n1.value, ej2.n2.value, ej2.n3.value, ej2.n4.value)">Mostrar factura</button>
-					<div id="respuesta2p"></div>
-					<div id="respuesta2m"></div>
-					<div id="respuesta2f"></div>
-					<div id="respuesta2s"></div>
-					<div id="respuesta2t"></div>
-                    <div id="respuesta3t"></div>
+					<legend>Viaje de estudios</legend>
+					Numero de alumnos que van a la excursión: <input type="number" name="n1" value="0" size="10"><br>
+					<button type="button" onclick="pago(f2.n1.value)">Mostrar cuanto costara el autobus</button>
+					<div id="respuesta2"></div>
 				</fieldset>
 			</form>
-			<form name="ej3" id="f3">
+
+			<form name="f3" id="id3">
 				<fieldset>
 					<legend>Mi colección de discos</legend>
-					Grupo <input id="input" type="text" name="n1" value="" size="10"><button type="button" onclick="mostrar(ej3.n1.value)">?</button> <br>
-					Título del Album <textarea type="text" name="n2" cols="40" rows="5"></textarea><button type="button" onmouseenter="mostrar(ej3.n2.value)">?</button> <br>
-					<button type="button" onclick="crearnodo(ej3.n1.value, ej3.n2.value)">Enviar</button>
-					<button type="button" onclick="killnodo()">Cancelar</button>
+					Grupo <input id="input" type="text" name="n1" value="" size="10"><button type="button" onclick="mostrar(f3.n1.value)">?</button>
+					<button type="button" onclick="agregarGrupo(f3.n1.value)">+</button><br>
+					Grupos disponibles <select name="s0" id="grupos">
+						<option value="" selected="selected">- selecciona grupo -</option>
+						<option value="Guns N’Roses">Guns N’Roses</option>
+						<option value="Queens">Queens</option>
+						<option value="AC/DC">AC/DC</option>
+					</select><button type="button" onclick="mostrar(f3.s0.value)">?</button><br>
+					Título del Album <textarea type="text" name="n2" cols="40" rows="5"></textarea><button type="button" onclick="mostrar(f3.n2.value)">?</button> <br>
+					Borrar Número <input id="input" type="text" name="n3" value="" size="5"><br>
+					<button type="button" onclick="crearnodo(f3.n1.value, f3.n2.value,f3.s0.value)">Enviar</button>
+					<button type="reset">Cancelar</button>
+					<button type="button" onclick="deletenodo(f3.n3.value)">Borrar</button>
 				</fieldset>
 			</form>
 		</section>
 		<footer>
-			<h5>Robin Cuesta Wilkens</h5>
-			<h5>1ºASIR IES Manantiales</h5>
-			<a href="../index.html">ATRAS</a>
+			<h4>Autor: Pablo Escaño Martín</h4>
+			<h4>Alumno de 1ºASIR del instituto Los manantiales</h4>
+			<a href="../../index.html">volver</a>
 		</footer>
 	</div>
 </body>
