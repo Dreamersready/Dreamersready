@@ -1,4 +1,4 @@
-/*funcion del ejercicio 1*/
+/*Funcion del ejercicio 1*/
 let suma = 0;
 function desbordado (numero)
 {
