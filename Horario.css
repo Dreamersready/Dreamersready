@@ -1,0 +1,53 @@
+body {
+    background-image: url('Imagenes/Fondo_horario.jpeg');
+    width: 100%;
+    height: 100%;
+}
+
+div {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    background: rgba(0, 0, 0, 0.1);
+    width: 900px;
+}
+
+table {
+  color: black;
+  text-align: center;
+  border-collapse: collapse;
+  width: 800px;
+  height: 800px;
+  margin: auto auto;
+}
+
+td, th {
+  border: 1px solid black;
+  text-align: center;
+  padding: 8px;
+  background-color: rgba(80, 80, 80, 0.938);
+}
+
+.imagen {
+    background-image: url('Imagenes/LOGO_ORIGINAL.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.gbd {
+    background-color: rgba(229, 233, 23, 0.808);
+}
+.iso {
+    background-color: rgba(230, 28, 146, 0.753);
+}
+.hlc {
+    background-color: rgba(18, 199, 139, 0.719);
+}
+.sad {
+    background-color: rgba(170, 65, 223, 0.568);
+}
+.nada {
+    background-color: aqua;
+}
+.recreo {
+    background: radial-gradient(rgba(20, 20, 226, 0.904) 20%, rgb(13, 240, 13) 40%, rgba(151, 15, 219, 0.712) 60%, rgba(233, 84, 84, 0.2) 80%, rgba(5, 17, 6, 0.5) 100%);}
